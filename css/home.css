@@ -1,0 +1,330 @@
+/* 1-Common style 
+   2-Generale style 
+   3-Sections 
+    3.0-Header section 
+    3.1-Home section 
+    3.2-About section 
+    3.3-Portfolio section 
+    3.4-Services section 
+    3.5-Price section 
+    3.6-Team section 
+    3.7-Blogs section 
+    3.8-Contact section 
+    3.9-Footer section 
+*/
+
+/* 1-Common style */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    }
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+
+.clear{
+    clear: both;
+}
+
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*buttom*/
+button{
+    font-family: inherit;
+}
+.hover-opacity:hover{
+    opacity: 0.8;
+    transition: opacity .5s;
+}
+.btn{
+    min-width: 150px;
+    max-width: 150px;
+    padding: 12px 0px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.pd-y{
+    padding: 100px 0px;
+
+}
+
+/* 2-Generale Style */
+
+.section-header{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.section-title{
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.line{
+    display: block;
+    height: 5px;
+    width: 60px;
+    background-color: #6195ff;
+    margin: 0 auto 70px auto;
+}
+
+
+
+/* 3-section */
+/* 3.0-header section */
+
+.header{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+
+.header .logo{
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+}
+ 
+.header .logo img{
+    width: 15%;
+}
+
+.header .nav{
+    width: 50%;
+    float: left;
+    list-style: none;
+    text-align: right;
+
+}
+
+.header .nav > li{
+    display: inline-block;
+    text-align: center;
+    
+
+}
+
+.header .nav > li > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 25px 12px;
+    display: block;
+    font-size: 14px;   
+}
+
+.header .nav > li > a.active:after,.header .nav > li > a:after{
+    content: "";
+    display: block;
+    background-color: #6195ff;
+    height: 3px;
+    margin-top: 2px;
+    transition: .5s
+}
+.header .nav > li > a.active:after{
+    width: 100%;
+}
+.header .nav > li > a:after{
+    width: 0%;
+}
+.header .nav > li > a:hover:after{
+    width: 100%;
+}
+
+
+.dropdown{
+    position: relative;
+}
+.dropdown .dropdown-menu{
+    position: absolute;
+    left: -50%;
+    top: 80%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+
+}
+.dropdown .dropdown-menu li{
+    text-align: center;
+    width: 120px;
+    padding: 10px;
+    background-color:#6195ff;
+   
+}
+.dropdown-menu li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+}
+.dropdown:hover .dropdown-menu{
+    opacity: 1;
+    visibility: visible;
+}
+
+ /* 3.1-Home section*/
+
+.home{
+    background-image: url(../images/background/background1.webp);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+ }
+ 
+ .home-content{
+    position: absolute;
+    width: 45%;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+ }
+
+.home-content .title{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.home-desc{
+    margin: 20px 0px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height:1.5 ;
+}
+
+
+.home .btn-start{
+    margin-right: 5px;
+    background-color: #fff;
+}
+.home .btn-learn{
+    background-color: #6195ff;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

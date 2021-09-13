@@ -1,0 +1,87 @@
+/* Contact Section */
+
+.items{
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+.items .item{
+    float: left;
+    width: 32%;
+    text-align: center;
+}
+.items .item.mg{
+    margin: 0 2%;
+}
+.items .item-link{
+    display: inline-block;
+    margin-bottom: 14px;
+    color: #6195ff;
+}
+.items .item-link:hover{
+    font-size: large;
+}
+
+.items .item-title{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom:16px ;
+}
+.items .item-desc{
+    color: #999;
+}
+
+.contact-content .form{
+    width: 50%;
+    margin: 45px auto 45px auto;
+}
+
+.form .double-input{
+    overflow: hidden;
+    padding: 1px ;
+}
+
+.double-input .input-one{
+    width: 49%;
+    float: left;
+    height: 35px;
+    background-color: #f3f3f3;
+    border: none;
+    padding:0px 14px ;
+}
+.double-input .input-one.mg{
+    margin-right: 2% ;
+}
+
+.form .input-two{
+    display: block;
+    width: 100%;
+    height: 35px;
+    background-color: #f3f3f3;
+    border: none;
+    padding:0px 14px ;
+    margin: 20px 0px;
+}
+.form .input-three{
+    display: block;
+    width: 100%;
+    height: 80px;
+    background-color: #f3f3f3;
+    border: none;
+    padding:0px 14px ;
+}
+
+.form .input:focus{
+    background-color: transparent;
+    outline:1px solid #6195ff;
+    border-radius: 0 ;
+}
+.contact-content{
+    text-align: center;
+}
+.form-btn{
+    background-color: #6195ff;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

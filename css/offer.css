@@ -1,0 +1,65 @@
+/* Offer Section*/
+
+.offer{
+    background: #f3f3f3;
+}
+.offer-item{
+    width: 50%;
+    float: left;
+}
+.offer-item .offer-title{
+    font-size: 35px;
+}
+
+.offer-item .line{
+    margin: 10px 0px 50px 0px;
+
+}
+.offer-item-desc{
+    padding-right: 20px;
+    color: rgba(57, 59, 59, 0.6);
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+ }
+
+.offer-item-list{
+    list-style: none;
+}
+.offer-item-list li{
+    margin-bottom: 12px;
+    color: rgba(57, 59, 59, 0.6);
+}
+.offer-item-list i{
+border: 1px solid #6195ff ;
+color: #6195ff;
+padding: 4px 2px;
+border-radius: 50%;
+width: 25px;
+}
+
+.offer-item img{
+    width: 100%;
+}
+
+.offer-item .offer-bollets{
+     list-style: none;
+     text-align: center;
+ }
+.offer-item .offer-bollets li{
+    width: 10px;
+    height: 10px;
+    background-color: #d8d8d8;
+    display: inline-block;
+    margin: 10px 5px;
+    border-radius: 50%;
+}
+
+.offer-item .offer-bollets li.active{
+    background-color: #6195ff;
+    /* width: 15px; */ /*dosnt matter*/
+}
+
+.offer-item .offer-bollets li:hover{
+    background-color: #6195ff;
+}

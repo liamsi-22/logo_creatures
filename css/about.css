@@ -1,0 +1,50 @@
+/*  3.2-About section */
+ 
+.about-item{
+    position: relative;
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 15px 8px;
+    border: #e8e8e8 solid 1px;
+}
+.about-item.mg{
+    margin: 0 5%;
+}
+ .about-item .icon{
+    color: #6195ff;
+    margin-bottom: 10px;
+}
+.about-item-title{
+    text-transform: capitalize;
+    transition: color 0.5s;
+}
+
+.about-item-disc{
+    padding: 10px 0px;
+    line-height: 1.5;
+    color: rgba(57, 59, 59, 0.6);
+
+}
+.about .link{
+    text-decoration: none;
+    color: #6195ff;
+}
+
+.ltr-effect::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(141, 137, 137);
+    transition: 0.5s;
+    z-index: -1;
+}
+.ltr-effect:hover::after{
+    width: 100%;
+}
+.ltr-effect:hover .about-item-title{
+    color: #fff;
+}

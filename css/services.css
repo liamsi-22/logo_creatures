@@ -1,0 +1,61 @@
+/* Services Section*/
+
+.services-content .services-item{
+    position: relative;
+    float: left;
+    width: 32%;
+    border: #e8e8e8 solid 1px;
+    margin-bottom: 3%;
+    padding: 45px 20px 45px 80px;
+}
+
+.services-item.mg{
+    margin: 0 2%;
+}
+ .services-item .icon{
+     position: absolute;
+     top: 45px;
+     left: 20px;
+     color: #6195ff;
+
+ }
+ .services-item-title{
+    text-transform: capitalize;
+    padding-bottom:15px;
+    transition: 0.5s;
+    position: relative;
+    top: -5px;
+ }
+ .services-item-desc{
+    line-height: 1.5;
+    color: rgba(57, 59, 59, 0.6);
+    letter-spacing: 1.8px;
+    transition: 0.5s;
+    position: relative;
+    top: -5px;
+ }
+
+ .ttb::after{
+    position: absolute;
+    content: "";
+    width:100%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: rgb(141, 137, 137);
+    transition: 0.5s;
+    z-index: -1;
+ }
+ .ttb:hover::after{
+    height: 100%;
+ }
+
+.ttb:hover .services-item-title{
+    color: #fff;
+    top: 5px;
+}
+
+.ttb:hover .services-item-desc{
+    color: #fff;
+    top: 5px;
+}
